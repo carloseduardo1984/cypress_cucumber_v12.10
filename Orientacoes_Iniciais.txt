@@ -1,0 +1,5 @@
+Inicio:
+
+npm install 
+npm test
+npx cypress open

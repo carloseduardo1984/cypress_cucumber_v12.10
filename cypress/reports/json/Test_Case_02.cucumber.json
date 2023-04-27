@@ -1,0 +1,165 @@
+[
+  {
+    "description": "    Como analista de teste quero acessar a pagina do publicazo e realizar uma pesquisa de Teste.",
+    "keyword": "Feature",
+    "name": "002_Minha Funcionalidade",
+    "line": 2,
+    "id": "002_minha-funcionalidade",
+    "tags": [
+      {
+        "name": "@RegressionTest",
+        "line": 1
+      }
+    ],
+    "uri": "Test_Case_02.feature",
+    "elements": [
+      {
+        "id": "002_minha-funcionalidade;002_check_pesquisa",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "002_Check_Pesquisa",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "um acesso no site publicazo2",
+            "result": {
+              "status": "passed",
+              "duration": 5216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "insiro o item2 \"Teste\"",
+            "result": {
+              "status": "passed",
+              "duration": 1387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "verifica se item2 existe",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "002_minha-funcionalidade;002_check_pesquisa",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "002_Check_Pesquisa",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "um acesso no site publicazo2",
+            "result": {
+              "status": "passed",
+              "duration": 1372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "insiro o item2 \"Enfermeira\"",
+            "result": {
+              "status": "passed",
+              "duration": 1373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "verifica se item2 existe",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "002_minha-funcionalidade;002_check_pesquisa",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "002_Check_Pesquisa",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 1
+          },
+          {
+            "name": "@Test",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "um acesso no site publicazo2",
+            "result": {
+              "status": "passed",
+              "duration": 1230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "insiro o item2 \"Cabeleleira\"",
+            "result": {
+              "status": "passed",
+              "duration": 1308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "verifica se item2 existe",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

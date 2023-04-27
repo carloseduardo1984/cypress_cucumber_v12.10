@@ -1,0 +1,36 @@
+{
+  "name": "template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {   
+    "chai": "^4.3.6",
+    "dayjs": "^1.11.2",
+    "mocha": "^10.0.0"
+                   },
+  "scripts": {
+    "test:regression": "npx cypress-tags run --env \"TAGS=@RegressionTest\"",
+    "clean:reports": "if exist cypress\\reports rmdir /S/Q cypress\\reports",
+    "pretest": "npm run clean:reports",
+    "scripts": "cypress run --browser=chrome",
+    "posttest": "node cucumber-html-report.js",
+    "test": "npm run scripts || npm run posttest "
+  }, 
+  "devDependencies": {
+    "cypress": "^12.10.0",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-wait-until": "^1.7.2",
+    "cypress-xpath": "^1.0.0",    
+    "multiple-cucumber-html-reporter": "^1.20.0",
+    "nodemon": "^2.0.12"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/steps",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/json/",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
