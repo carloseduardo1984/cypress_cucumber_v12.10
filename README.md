@@ -20,5 +20,11 @@ No final do teste o relatório html é aberto em seu navegador:
 
 E para analisar manualmente com o cypres utilize o comando: `npx cypress open`
 
+ALGUMAS ORIENTAÇÕES BÁSICAS:
 
-mais informações em : https://docs.cypress.io/guides/overview/why-cypress 
+> OS ARQUIVOS BDD (FUNCIONALIDADES) DEVEM SER CONTRUÍDOS NA PASTA `cypress\e2e\features`COM A EXTENSÃO `*.feature
+> OS ARQUIVOS DE "STEPS (PASSOS/AÇÕES)" DEVEM SER DESENVOLVIDOS NA PASTA `cypress\support\steps`
+> VOCÊ PODE CRIAR CLASSES DE APOIO AOS ARQUIVOS DE PASSOS NA PASTA `cypress\support\pageObjects` E ASSIM UTILIZAR OBJETOS CUSTOMIZADOS PARA FACILITAR A MANUTENÇÃO E REAPROVEITAMENTO DE SUAS AUTOMAÇÕES.
+
+
+Mais informações sobre Cypress em  https://docs.cypress.io/guides/overview/why-cypress 
